@@ -9,7 +9,7 @@ build/
 *.local
 .pnpm-debug.log
 
-# --- Socket.IO specific (if using uploads/temp) ---
+# --- Socket.IO specific ---
 uploads/
 tmp/
 
