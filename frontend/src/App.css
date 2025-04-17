@@ -1,0 +1,157 @@
+body {
+  background-color: #212121;
+  overflow: auto;
+  height: 100vh
+}
+#root{
+  /* height: 100vh */
+}
+.App {
+  font-family: "Inter", sans-serif;
+  padding: 2rem;
+  color: #1e293b;
+  max-width: 1080px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containernew {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    height: 100vh;
+
+}
+.thinking-status {
+  font-size: 16px;
+  color: #3b82f6;
+  margin-top: 10px;
+}
+
+.error-msg {
+  color: #ef4444;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+
+.chat-area {
+  display: flex;
+      flex-direction: column;
+      row-gap: 27px;
+      padding: 1rem 1rem 8rem;
+      /* margin-bottom: 80px; */
+      width: 100%;
+      overflow-y: scroll;
+      height: calc(100vh - 200px);
+}
+.chat-area::-webkit-scrollbar{
+  display: none;
+  width: 0px;
+}
+
+
+
+.chat-bubble {
+  /* max-width: 70%; */
+  padding: 12px 16px;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
+
+.user-msg {
+  align-self: flex-end;
+  background-color: #303030;
+  color: #fff;
+}
+
+.ai-msg {
+  align-self: flex-start;
+  /* background-color: #3b82f6; */
+  color: white;
+}
+
+.chat-bubble h3 {
+  font-size: 1.5rem;     /* or 24px */
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+/* 
+h2 {
+  font-size: 1.8rem;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 2rem;
+  color: #0f172a;
+} */
+
+/* .react-flow__node-default {
+  width: 250px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  white-space: pre-wrap;
+}
+
+.react-flow__edge-path {
+  stroke: #60a5fa;
+  stroke-width: 2px;
+}
+
+.react-flow__background {
+  fill: #f1f5f9;
+}
+
+.summary-box {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+.app-title {
+  color: #b4b4b4;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section-heading {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+} */
+
+
+.app-title {
+  color: #b4b4b4;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

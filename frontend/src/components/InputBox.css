@@ -1,0 +1,22 @@
+.command-bar {
+    /* width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #27272A;
+    border-radius: 10px; */
+  }
+  .button-wrapper{
+    display: flex;
+        justify-content: flex-end;
+        border-radius: 50%;
+        margin: 10px;
+  }
+  .newcmd{
+    width: 100%;
+    /*   */
+    margin: 0 auto;
+    background-color: #27272A;
+    border-radius: 10px;
+  }
+
+  

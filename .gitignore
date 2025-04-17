@@ -1,0 +1,47 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+dist/
+build/
+*.local
+.pnpm-debug.log
+
+# --- Socket.IO specific (if using uploads/temp) ---
+uploads/
+tmp/
+
+# --- React ---
+/build
+/.cache
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+pip-log.txt
+.pytest_cache/
+.mypy_cache/
+
+# --- Common ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+*.tmp
+*.log
+coverage/
+.env.*
+*.sqlite3
